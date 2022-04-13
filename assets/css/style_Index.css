@@ -1,0 +1,441 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+.navbar-brand {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZGF0YS1uYW1lPSJMYXllciAxIiBpZD0iTGF5ZXJfMSIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik01MDQuMzMsNDQ5Yy0xLjc3LTYuOC00NC43My0xNjcuNTItMTY0LjIxLTIzMi45MS00NC42NS0yNC40My05Ni4yLTQxLjQ1LTE0Ni01Ny45MUMxMTUsMTMyLjA4LDQwLjI5LDEwNy40MiwyNiw1OS42NWE2LjIyLDYuMjIsMCwwLDAtMTIsLjI0Yy0uOSwzLjUtMjEuNTMsODYuMzgsMTUuNjUsMTM3Ljk0LDE2LjgsMjMuMjksNDIuNjYsMzYuMzMsNzYuODUsMzguNzUsMi44OC4yLDUuNjEuNDIsOC40NC42Myw0LjE1LDE1LjE2LDIyLjE0LDYwLjYzLDg5LjYxLDY2LDEyLjI1LDEsMjQuMTcsMi4yNSwzNS45LDMuNjUsNC45MiwxNC4xNiwyNi44NCw1Ny42LDExNCw3My4wNyw2Mi43OCwxMS4xNCwxMTQsMzEuMTgsMTMxLjIxLDUxLjI1LDQuMzksMTIuNjgsNi41MywyMC42Miw2LjYzLDIxYTYuMiw2LjIsMCwwLDAsNiw0LjY1LDYuNTYsNi41NiwwLDAsMCwxLjU3LS4yQTYuMjMsNi4yMywwLDAsMCw1MDQuMzMsNDQ5Wk0zOS43NCwxOTAuNThDMTYsMTU3LjczLDE4Ljc1LDEwOC41MiwyMi41NSw4MS44M2MyNi4wNyw0MS40Myw5Mi4zNCw2My4zMSwxNjcuNjIsODguMTYsNDkuMzIsMTYuMjksMTAwLjMzLDMzLjEzLDE0NCw1NywzMS40NiwxNy4yMSw1Ny41Myw0MS44LDc4LjgsNjguNDRDMzcyLDI2OS4zOCwzMDUuNTgsMjM4LjIyLDEwNy4zNSwyMjQuMTgsNzcsMjIyLDU0LjI4LDIxMC43MywzOS43NCwxOTAuNThabTg4LjM2LDQ3LjY0YzIwMi4zOCwxNi40MiwyNTQuMzYsNTEuNDYsMjkyLjY0LDc3LjI4LDQuMzYsMi45NSw4LjU4LDUuOCwxMi44NCw4LjUxLDUuMDksNy43Nyw5LjgxLDE1LjU1LDE0LjE4LDIzLjIyLTM4LjM3LTE5Ljc4LTExNS42OS00MS40Mi0yMDEuMTktNTIuMTUtLjE0LDAtLjI5LDAtLjQ0LS4wNi0xMy4zOS0xLjY3LTI2Ljk0LTMuMTMtNDAuNjEtNC4yMkMxNTAuNDksMjg2LjQzLDEzMy4yMSwyNTMuNTMsMTI4LjEsMjM4LjIyWk0zNTYuNjMsMzY3LjY4Yy03MC44My0xMi41Ny05NC41MS00My43OS0xMDItNTkuMTEsMTEwLjI0LDE0Ljg3LDE5Mi43Nyw0Ni4yNywyMDUuNjEsNjIsNi43NSwxMy41NSwxMi4yOSwyNi4yNSwxNi44MSwzNy41QzQ1MS4xLDM5MS40OSw0MDcuOTQsMzc2Ljc4LDM1Ni42MywzNjcuNjhaIi8+PC9zdmc+");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 48px;
+  height: 48px;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgba(180, 190, 203, 0.4);
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.overlay-item .mask {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.overlay-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  x-margin-right: auto;
+  x-margin-left: auto;
+}
+.overlay-item h3 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+}
+.overlay-item p {
+  text-align: left;
+  font-size: 15px;
+}
+.overlay-item a.btn {
+  margin: 10px 0;
+}
+
+.overlay-effect img {
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.overlay-effect .mask {
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.overlay-effect h3 {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.overlay-effect p {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.overlay-effect a.btn {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.overlay-effect:hover img {
+  -webkit-transform: scale(10);
+  -moz-transform: scale(10);
+  -o-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.overlay-effect:hover .mask {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.overlay-effect:hover h3,
+.overlay-effect:hover p,
+.overlay-effect:hover a.btn {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+body {
+  background: url('http://www.dreamers.id/img_artikel/54CD1F29A6-C5A4-466C-AA31-B9F3DB22D1ED.jpeg') no-repeat center center;
+  background-size: 1400px 700px;
+  background-position: 30%;
+  background-attachment: fixed;
+}
+
+
+.text {
+  font-family: raleway;
+  font-size: 40px;
+  position: absolute center;
+  text-align: center;
+  padding-left: 0%;
+  color: #000;
+  margin-top: 43px;
+}
+
+.text1 {
+  font-family: raleway;
+  font-size: 21px;
+  text-align: center;
+  margin-top: -20px;
+  color: #000;
+}
+
+.image {
+  text-align: center;
+  width: 200px;
+  /* Container's dimensions */
+  
+  height: 200px;
+  -webkit-border-radius: 75%;
+  -moz-border-radius: 75%;
+  box-shadow: 0 0 0 1px #eee;
+  background: url("https://images.unsplash.com/reserve/ysPfhVSzSP2m629CW0mw_selfPortrait.jpg?fit=crop&fm=jpg&h=700&q=80&w=1225") center center no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  align-content: center;
+}
+
+
+
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
+
+.image:hover {
+  box-shadow: 0px 5px 20px .9px #3F3F3F;
+}
+
+.image:hover {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+  -webkit-transition: 1.6s ease-in-out;
+  transition: 1.6s ease-in-out;
+}
+
+
+
+.trick:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#overlay {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  padding: 0 0 0 0;
+  opacity: 1.0;
+  -webkit-transition: opacity 2.25s ease;
+  -moz-transition: opacity 10.25s ease;
+}
+
+#box:hover #overlay {
+  opacity: 1;
+}
+
+
+
+
+
+.panel-group{
+  width:350px;
+  margin:auto;
+  /*margin:50px 400px 50px 400px;*/
+  max-width:100%;
+}
+
+.panel-heading{
+  background-color:transparent !important;
+}
+
+.title{
+  text-align: center;
+  background-color:transparent;
+  color:#000;
+  font-family:lato;
+  font-weight:300;
+  font-size:15px;
+  max-width:100%;
+}
+
+
+
+
+#accordion{
+  background-color: transparent;
+  max-width:100%;
+  margin-bottom:200px;
+}
+
+
+
+
+
+
+
+.btn-outline {
+  color: inherit;
+  transition: all 1.4s;
+  background-color: transparent;
+}
+/* button CSS */
+
+.btn-danger.btn-outline {
+  margin-top: 9px;
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+  padding:auto;
+  padding:10px 0px 10px 0px;
+  margin: 1px 5px 1px 0px;
+  width: 100%;
+  text-align:center;
+  font-family: raleway;
+  font-weight: 300;
+  max-width:100%;
+}
+
+
+
+/*---------    Contact Form    ------------*/
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #000;
+  font-size: 15px;
+}
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-family: raleway;
+}
+
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+  color: #fff;
+  font-family: raleway;
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-family: raleway;
+}
+
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
+  color: #fff;
+  font-family: raleway;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-family: raleway;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #fff;
+  font-family: raleway;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-family: raleway;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover::focus:-ms-placeholder {
+  color: #fff;
+  font-family: raleway;
+}
+
+#form {
+  position: relative;
+  width: 100%;
+  margin: 0px auto 0px auto;
+  font-family: raleway;
+}
+
+input {
+  font-family: raleway;
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  padding: 0px 12px 0px 12px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #eee;
+  border-bottom: none;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+}
+
+input:hover {
+  background: #ccc;
+  color: #fff;
+  font-family: raleway;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #000;
+  font-family: raleway;
+  font-size: 25px;
+  border: solid 1px #eee;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+}
+
+textarea:hover {
+  background: #ccc;
+  color: #fff;
+  font-family: raleway;
+}
+
+#submit {
+  width: 100%;
+  padding: 0;
+  font-family: raleway;
+  font-size: 20px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #eee;
+  border-top: none;
+  margin-bottom: 0px;
+}
+
+#submit:hover {
+  color: #fff;
+  background-color: #ccc;
+}
